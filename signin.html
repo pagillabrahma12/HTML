@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.news18.com/ibnlive/uploads/2023/01/amazon-1-16744506913x2.jpg" width="200">
+
+    <fieldset>
+        <legend><h1>SIGN IN FORM</h1></legend>
+        <form action="login.html" method="post">
+            <lable for="fName">First Name:</lable>
+            <input type="text" name="fName" id="fName" placeholder="Enter First Name"><br><br>
+            <lable for="sName">Second Name:</lable>
+            <input type="text" name="sName" id="sName" placeholder="Enter Second Name"><br><br>
+            <lable for="uName">User Name</lable>
+            <input type="text" name="uName" id="uName" placeholder="Enter User Name"><br><br>
+            <lable for="gender" requried>Gender:</lable>
+            <lable>Male</lable><input type="radio" value="Male" name="gender">
+            <lable>Female</lable><input type="radio" value="Female" name="gender">
+            <lable>Others</lable><input type="radio" value="Others" name="gender"><br><br>
+            <lable for="mail">Email:</lable>
+            <input type="email"  name="mail" id="mail" placeholder="Enter Your Email"><br><br>
+            <lable for="pswd"> Create Your Password:</lable>
+            <input type="password" id="pswd" name="pswd" placeholder="Create Your Password"><br><br>
+            <lable for="pno">Phone Number</lable>
+            <input type="tel"name="pno" id="pno" pattern="[1-9]{10}" ><br><br>
+            <lable for="dob">Date of Birth:</lable>
+            <input type="Date" name="dob" id="dob" placeholder="Enter your DOB"><br><br>
+            <lable for="age">Age:</lable>
+            <input type="number" name="age" id="age"  placeholder="Enter Your Age"><br><br>
+            <label>what do like most</label>
+            <select>
+                <option value="Games" >Games</option>
+                <option value="Reading" >Reading</option>
+                <option value="Cartoon">Cartoon</option>
+                <option value="Playing">Playing</option>
+            </select><br><br>
+            <lable>About You:</lable>
+            <textarea name="about you" id="about you" cols="20" rows="10"></textarea><br><br>
+            <input type="submit">
+            <button formaction="login.html">Already have an Account</button>
+</body>
+</html>
