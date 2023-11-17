@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS WITH CSS</title>
+    <style>
+body{
+
+    background-color: aquamarine;
+}
+
+
+    #e1{
+color:chocolate;
+
+    } 
+ #w3,#q5,#q4,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#q1,#q2,#q3{
+        color: blue;
+    }
+    .a2,.a1,.a3{
+
+        color:darkred
+    }
+    </style>
+</head>
+<body>
+<center><h1 class="a1">REGISTRATION FORM</h1></center>
+    <center><img src="https://og.blocksurvey.io/api/og?title=Junior%20Cricket%20Registration%20Form," width="200"></center>
+
+    <fieldset>
+       <legend id="e1"><h2>Registraion Form</h2></legend>
+    <form method="post">
+        <lable for="Fname" id="b1">Frist Name:</lable>
+        <input type="text" name="Fname" id="Fname" placeholder="Enter Your Frist Name" ><br><br>
+        <lable for="Sname" id="b2">Second Name:</lable>
+        <input type="text" name="Sname" id="Sname" placeholder="Enter Your Second Name"><br><br>
+        <lable for="mName" id="q3">Mother Name:</lable>
+        <input type="text" name="mName"id="mName" placeholder="Enter Your Mother Name"><br><br>
+
+        <lable for="fName" id="b7">Father Name:</lable>
+        <input type="text" name="fName" id="fName" placeholder="Enter Your Father Name"><br><br>
+        <lable for="BOD" id="q1">Date of Birth:</lable>
+        <input type="date" name="DOB" id="DOB" placeholder="Enter Youe DOB"><br><br>
+        <lable id="q5" for="com">Community</lable>
+        <input type="text" name="com" id="com" placeholder="Enter Community"> <br><br>
+
+         <lable id="b5">Gender:</lable>
+        <lable>Male</lable>
+        <input type="radio" name="gender" id="male" value="male">
+        <lable>Female</lable>
+        <input type="radio" name="gender" id="female" value="female">
+        <lable>Others</lable>
+        <input type="radio" name="gender" id="others" value="others"><br><br>
+        <lable for="email" id="b3">Email:</lable>
+        <input type="mail" name="mail" id="mail" placeholder="Enter Your Mail" ><br><br>
+        <lable for="pswd" id="b9">Password:</lable>
+        <input type="password"name="pswd" id="pswd" placeholder="Enter Your Password"><br><br>
+
+        <lable for="mno" id="b4">Mobile Number:</lable>
+        <input type="tel" name="mno" id="mno"placeholder="Enter Your Number"><br><br>
+        <lable for="address" id="b6">Address:</lable>
+        <input type="text" name="address" id="address" placeholder="Enter Your Address"><br><br>
+        <lable for="he" id="b8">Higher Education</lable>
+        <select id="Education">
+            <option value="SSC">SSC</option>
+            <option value="INTER">INTER</option>
+            <option value="DEGREE">DEGREE</option>
+            <option value="B.TECH">B.TECH</option><br><br>
+            </select>
+            <lable for="photo" id="q2">Photo:</lable>
+            <input type="file"name="file" id="file"><br><br>
+            <lable id="q4">Language's Know to You:</lable><br>
+            <input type="checkbox" id="Language1" name="Language1" value="HINDI">
+            <label for="Language1"> HINDI</label><br>
+            <input type="checkbox" id="Language2" name="language2" value="ENGLISH">
+            <label for="Language2">ENGLISH</label><br>
+            <input type="checkbox" id="Language3" name="Language3" value="TELUGU">
+            <label for="Language3"> TELUGU</label><br>
+            <lable id="w3">Write About Youself:</lable>
+            <textarea></textarea><br><br>
+            <button class="a2" formaction="./login.html">SIGN UP</button>
+            <button  class="a3"formaction="./login.html">Already Have Account</button>
+
+        
+        </form>
+</fieldset>
+</body>
+</html>
