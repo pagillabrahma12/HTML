@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quaries</title>
+    <style>
+ @media screen and (min-width:320px){
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 50px;
+                justify-content: center;
+                align-items: center;
+                background-color:rgb(169, 159, 159);
+                flex-wrap: wrap;
+            }
+        }
+
+        @media screen and (min-width:425px) and (max-width:768px){
+            .main{
+                background-color: aqua;
+
+
+            }
+         }
+         @media screen and (max-width:325px){
+        .sub{
+            display: flex;
+            flex-direction:column ;
+            display: none;
+
+        }
+       }
+         @media screen and (min-width:325px){
+            .sub{
+           display: block;
+
+            }
+        }
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: burlywood;
+
+}
+    img{
+    width:220px;
+    height: 250px;
+    border-radius: 10%;
+
+}
+.main{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+    .sub{
+        border: 1px solid black;
+        display: flex;
+        background-color: cadetblue; 
+        padding: 20px;
+        justify-content: space-around;
+        font-size: 20px;
+  }
+  </style>
+</head>
+<body>
+
+    <h1>Gallery</h1>
+    <ul class="sub" type="none">
+        <li>Place</li>
+        <li>Date</li>
+        <li>Location</li>
+
+    </ul>
+    <div style="text-align: center;" class="main">
+        <img src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+
+    </div>
+</body>
+</html>
