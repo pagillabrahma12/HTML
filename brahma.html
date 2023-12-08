@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>flight</title>
+    <style>
+      .sub1{
+          border: 1px solid rgb(212, 206, 206);
+          width:auto;
+          height: 70px;
+          padding: 5px;
+      }
+      .item1{
+          border: 1px soild rgb(222, 21, 21);
+          width: 140px;
+          height: 40px;
+          padding: 5px;
+        
+      }
+      .item2{
+            border: 1px solid rgb(246, 241, 241);
+            width: 80px;
+            height: 50px;
+            padding: 5px;
+            margin-left: 94%;
+            margin-top: -40px;
+      }
+      .container{
+        width: 800px;
+        height: 400px;
+        border: 1px solid rgb(168, 158, 158);
+        background-color: rgb(232, 227, 220);
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+    input{
+      width: 100%;
+      height: 40px;
+      padding: 5px;
+    }
+    h3{
+     font-size: 30px;
+     margin-left: 15%;
+ }
+      .w1, #s1{
+      margin-left: 15%;
+        }
+        .w2{
+      font-size: 30px;
+      color: rgb(201, 196, 196);
+      position: absolute;
+     left: 20%;
+     bottom: -80%;
+      
+    
+   }
+    .div{
+      
+      background-color:white;
+      width: 520px;
+      height:500px;
+      padding: 30px;
+      margin-left: 60%;
+      margin-top: -32%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .item{
+      width: 220px;
+      height: 220px;
+      border: 1px solid rgb(233, 227, 227);
+
+
+    }
+  
+  #e2{
+      font-size: 25px;
+      margin-left: 15%;
+  }
+  .main2{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 15%;
+        }
+        .sub2,.sub3{
+        border: 1px solid rgb(231, 218, 218);
+        width: 500px;
+        height: 480px;
+        }
+    .x1{
+        color: rgb(147, 141, 141);
+        margin-left: 40px;
+      }
+      .anu{
+       position: relative;
+       margin-left: 130px;
+       margin-top: 50px;
+       font-size: 20px;
+       padding: 5px;
+       color: black;
+      }
+      #anu1{
+       color: black;
+       }
+       .form{
+        margin-left: 15%;
+        margin-top: 40px;
+        background-color: rgb(136, 129, 129);
+        border: 1px soild black;
+        width: 970px;
+        height: 250px;
+        padding: 30px;
+        color: white;
+    }
+    .form1{
+        margin-left: 15%;
+
+    }
+    .form2{
+       width: 600px;
+       height: 100px;
+       padding: 30px;
+       margin-left: 15%;
+    }
+    .footer{
+        margin-left: 500px;
+margin-top: 150px;
+        color: rgb(126, 127, 129);
+
+    }
+    .footer1{
+        margin-left: 130px;
+    }
+    input{
+       width: 100%;
+       height: 40px;
+       padding: 15px;
+    }
+    .form:hover{
+       background-color: black;
+    }
+     #a1:hover{
+        background-color: rgb(209, 192, 192);
+      
+      }
+      #a2:hover{
+        background-color: rgb(209, 192, 192);
+
+      }
+
+      button :active{
+        color:rgb(206, 174, 174);
+        background-color: rgb(219, 127, 127);
+        padding: 20px;
+      }
+      a{
+        text-decoration: none;
+      }
+      .footer1:hover{
+        background-color: rgb(63, 62, 62);
+
+
+      }
+      .m1{
+        position: absolute;
+        top: 1050px;
+      }
+      .m2{
+        position: absolute;
+        top: 1050px;
+      }
+      .m3{
+        position: absolute;
+        top: 1280px;
+        }
+        .m4{
+          position: absolute;
+        top: 1280px;
+
+        }
+
+      
+      
+        </style>
+        </head>
+        <body>
+            <div class="sub1">
+                <div class="item1">
+                    <a id="a1" href="#logo"><i id="a1" class="fa fa-map-marker" style="font-size:38px;color:red"> Logo</a></i>
+                </div>
+                <div class="item2">
+                    <a href="#item"><i id="a2"class="fa fa-search" style="font-size:30px;color:red"></i></a>
+                </div>
+            </div>
+            <div class="suc">
+            <img src="https://www.w3schools.com/w3images/london2.jpg" width="100%">
+           </div>
+           <div class="container" class="btn btn-warning">
+            <ul class="nav nav-tabs"class="btn btn-warning">
+              <li class="active" class="btn btn-warning"><a data-toggle="tab" href="#flight"><i class="fa fa-plane" style="margin-right: 10px;"></i>Flight</a></li>
+              <li><a data-toggle="tab" href="#hotel"><i class="fa fa-bed" style="margin-right: 10px;"></i>Hotel</a></li>
+              <li><a data-toggle="tab" href="#rent"><i class="fa fa-car" style="margin-right: 10px;"></i>Rental</a></li>
+            </ul>
+          
+            <div class="tab-content">
+              <div id="flight" class="tab-pane fade in active">
+                <h3>Travel the world with us</h3>
+                  <form>
+                      <label for="from"><h2>From:</h2></label>
+                      <input  id="b1"type="text" placeholder="Departing from">
+                      <label for="to"><h2>To:</h2></label>
+                      <input  id="b1"type="text" placeholder="Arriving at"><br><br>
+                     <a href="#search"><button style="padding:5px;background-color: rgb(139, 133, 133); color: black;">search and find date</button></a>
+                  </form>
+              </div>
+              <div id="hotel" class="tab-pane fade">
+                <h3>Find the best hotels</h3>
+                <p>Book a hotel with us and get the best fares and promotions.</p>
+          <p>We know hotels - we know comfort.</p>
+          
+           <a href="search hotel"></a><button style="padding:5px;background-color: rgb(139, 133, 133); color: black;">search hotel</button>
+              </div>
+              <div id="rent" class="tab-pane fade">
+                <h3>Best car rental in the world!</h3>
+                <p><mark>DISCOUNT!</mark> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+                <form>
+                  <input type="text" placeholder="Pick-up-Line"><br><br>
+                 <a href="#search "> <button style="padding:5px;background-color: rgb(139, 133, 133); color: black;">Search Availabity</button></a>
+                </form>
+              </div>
+            </div>
+            </div>
+            <div class="main1">
+                <h3>Good Offers Right Now </h3>
+                <p id="s1">Up to 50% discount</p>
+                <img  class=w1 src="https://www.w3schools.com/w3images/cinqueterre.jpg"width="40%">
+                <b class="w2">Cinque Terre</b> 
+                <div class="div">
+                  <div class="item">
+                    <img src="https://www.w3schools.com/w3images/newyork2.jpg" width="220px" height="220px">
+                    <p class="m1" style="color:rgb(245, 0, 0);font-size: 20px;">New York</p>
+                  </div>
+                  <div class="item">
+                    <img src="https://www.w3schools.com/w3images/sanfran.jpg" width="220px" height="220px">
+                    <p class="m2" style="color:rgb(245, 0, 0);font-size: 20px;">San Francisco</p>
+                  </div>
+                  <div class="item">
+                    <img src="https://www.w3schools.com/w3images/pisa.jpg" width="220px" height="220px">
+                    <p class="m3" style="color:rgb(245, 0, 0);font-size: 20px;">Pisa</p>
+                  </div>
+                  <div class="item">
+                    <img src="https://www.w3schools.com/w3images/paris.jpg" width="220px" height="220px">
+                    <p class="m3" style="color:rgb(245, 0, 0);font-size: 20px;">Paris</p>
+                 </div>
+                </div>
+                <div class="head">
+                  <h3 id="e1">Explore Nature</h3>
+                  <p id="e2">Travel with us and see nature at its finest.</p>
+                </div>
+                <div class="main2">
+                  <div class="sub2">
+                      <img src="https://www.w3schools.com/w3images/ocean2.jpg" width="500px" height="250px">
+                      <h3>West Coast, Norway</h3>
+                      <b class="x1">Roundtrip from $79</b><br><br>
+                      <b class="x1">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b>
+                      <div class="anu"><a id="anu1" href="Buy Tickets">Buy Tickets</a></div>
+                  </div>
+                  <div class="sub3">
+                    <img src="https://www.w3schools.com/w3images/mountains2.jpg" width="500px" height="250px">
+                    <h3>Mountains, Austra</h3>
+                    <b class="x1">One-way from $39</b><br><br>
+                    <b class="x1">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</b>
+                    <div class="anu"><a id="anu1"href="Buy Tickets">Buy Tickets</a></div>
+                </div>
+            </div>
+            <div class="form">
+              <h1>Get the best offers first!</h1>
+              <h4>Join our newsletter.</h4>
+              <form>
+                  <label for="fname">Email</label>
+                  <input type="email" id="fname" name="email" placeholder="Enter Your Email Address"><br><br>
+                 <a href="#subscribe"><button>Subscribe</button></a>
+              </form>
+          </div>
+          <div class="form1">
+          <h1>Contacts</h1>
+          <p>Let us book your next trip!</p>
+          <p><i id="a1" class="fa fa-map-marker" style="font-size:20px;color:rgb(86, 84, 84)"></i>Chicago, US</p>
+          <p> <i class="fa fa-phone" style="font-size:20px;color:rgb(117, 121, 117)"></i> Phone: +00 1515152 </p>
+          <p><i class="fa fa-envelope" style="font-size:20px;color:rgb(135, 137, 135)"></i> Email: mail@mail.com </p>
+          </div>
+         
+              <div class="form2">
+                  <form>
+              <input type="text" placeholder="Name"><br><br>
+              <input type="email" placeholder="Email"><br><br>
+              <input type="text" placeholder="Message"><br><br>
+              <a href="#send message"><button>Send Message </button></a>
+              </form>
+              </div>
+          <div class="footer">
+              <h3 >Find us on</h3><br>
+             <div class="footer1">
+              <i class="fa fa-send" style="font-size:36px"></i>
+              <i class="fa fa-facebook-f" style="font-size:36px"></i>
+              <i class="fa fa-git" style="font-size:36px"></i>
+              <i class="fa fa-linkedin" style="font-size:36px"></i>
+              <i class="fa fa-snapchat" style="font-size:36px"></i></div>
+          </div>
+      
+                </div>         
+        </body>
