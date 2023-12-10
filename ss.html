@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="./oxer-html/images/gloves.png" type="image/x-icon">
+    <style>
+      body{
+        background-color: rgb(19, 243, 57);
+      }
+      .my-car{
+        margin-left: 55px;
+      } 
+  .navbar {
+    margin-bottom: 0;
+    background-color: #5fe732;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #0c0c0c !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #e9654a !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #b0e921 !important;
+  }
+    .box{
+      border: 1px solid rgb(64, 236, 22);
+      width: 60vw;
+      height: 70vh;
+      margin-left: 550px;
+      margin-top: -300px;    
+    }
+    .box1{
+      border: 1px solid rgb(30, 237, 47);
+      width: 30vw;
+      height: 40vh;
+      margin-top: 150px;
+      margin-left: 50px;
+
+    }
+    .button{
+      padding: 10px;
+      border-radius: 10%;
+      text-align: center;
+      margin-left: 140px;
+    }
+    .button:hover{
+    color: white;
+    background-color: #0c0c0c;
+    padding: 14px;
+    }
+    .box2{
+      margin-left: 60px;
+    }
+    .a1{
+      color: #fff;
+      position: relative;     
+      bottom: 750px;
+      color: white;
+    }
+    .body{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 80px;
+    }
+    .van{
+      border: 1px solid rgb(62, 223, 30);
+      width: 600px;
+      height: 1000px;
+     }
+     .van1{
+      border: 1px solid rgb(81, 213, 20);
+      width: 800px;
+      height: 1000px;
+  }
+  input{
+    width: 500px;
+    padding: 15px;
+    background-color: #0c0c0c;
+    color: white;   
+  }
+  ::placeholder{
+    color: #fff;
+  }
+  textarea{
+background-color: #0c0c0c;
+color: white;
+text-align:left;
+  }
+  .cc{
+    margin-left: 80px;
+  }
+  .com{
+        border:1px  solid green;
+        background-color: rgb(10, 13, 10);
+        width: 1200px;
+        height: 190px;
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+        color:rgb(246, 246, 230);
+        margin-left: 150px;
+      }
+      .o1{
+        text-align: center;
+        margin-top: -100px;
+        color: rgb(255, 252, 249);
+      }
+     .com:hover{
+      padding: 20px;
+      color: rgb(10, 8, 8);
+      background-color: rgb(176, 225, 53);
+     }
+     .com:active{ 
+     transform:rotateX(20deg);
+     }
+
+    </style>
+    <title>Boxing App</title>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">BOXING ACADEMY</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#classes">CLASSES</a></li>
+            <li><a href="#blog">BLOG</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="home">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="my-car" src="./oxer-html/images/hand.jpg" width="1400" height="500">
+          <div class="carousel-caption">
+            <h3>BOXING GLOVES</h3>
+            <p>Boxing is described as fighting with the fists. According to rules, it requires the use of boxing gloves and limits legal blows to those that strike above the waist and on the front or sides of the opponent.
+             Organised amateur boxing as we know it came about in the late nineteenth century when the eighth Marquis of Queensberry devised a new set of rules. At the first modern Olympic Games in 1896 boxing was not included in the program of events, but made a comeback at the 1904 Olympic Games and has appeared in every Olympics since 1920. </p>
+          </div>      
+        </div>
+  
+        <div class="item">
+          <img src="./oxer-html/images/box.jpg" class="my-car" width="1400" height="500">
+          <div class="carousel-caption">
+            <h3>BOXING EQUIPMENT</h3>
+            <p>A boxing match takes place on a square platform called a ring. The ring is surrounded by ropes. The ropes keep the fighters from falling out of the ring. Each fighter uses a corner of the ring as a base. During pauses in the fight, the boxers go to their corners. A boxer wears padded gloves on each hand. To protect the teeth, a boxer wears a mouth guard. Amateur boxers wear padded headgear.</p>
+          </div>      
+        </div>
+      
+        <div class="item">
+          <img  class="my-car" src="./oxer-html/images/ab.jpg" alt="" width="1400" height="500">
+          <div class="carousel-caption">
+            <h3>A BOXING MATCH</h3>
+            <p>A boxing match is divided into three-minute periods called rounds. The boxers get one minute of rest between rounds.A professional boxing match is usually scheduled to last 12 rounds.An amateur match usually has three scheduled rounds.A person called the referee stands inside the ring with the boxers.The referee makes sure that the boxers follow the 
+              rules</p>
+          </div>      
+        </div>
+      </div>
+      </div>
+          <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <div id="about">
+    <div class="area">
+      <div class="box1">
+        <h1 style="color:white; font-size:50px; text-align: center; font-weight: 100px;">BOXING CENTER</h1>
+        <p  style="color:white; font-size:15px;"> iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipnisi ut aliquipiusmod tempor incididunt ut labore  </p>
+        <button class="button">Contact Us</button>
+      </div>
+    
+    </div>
+  <div class="box">
+   <img id="q1" src="./oxer-html/images/hero-bg.jpg" width="920px" height="515px">
+  </div>
+  <div class="box2">
+    <img src="./oxer-html/images/about-bg.jpg" width="1300px" height="800px">
+    <div class="cc">
+    <h2 class="a1"> About Class:</h2>
+    <h3 class="a1">-7Days Trail Free</h3>
+    <h3 class="a1">-Timing:</h3>
+    <h3 class="a1">-Morning 6AM To 11AM </h3>
+    <h3 class="a1">-Evening 5PM To 8PM</h3>
+    <h3 class="a1">-Sunday Hoilday</h3>
+    </div>
+  </div>
+  <div class="body">
+  <div class="van">
+    <h2 style="color: #0c0c0c; font-size: 50px; text-align: center;">Request A Call Back</h2><br>
+    <form>
+      <input type="text" name="name" placeholder="Enter Your Name"><br><br>
+      <input type="tel" name="phn" placeholder="Enter your Number"><br><br>
+      <input type="email" name="email" placeholder="Enter Your Email"><br><br>
+      <textarea name="" id="" cols="67" rows="10" placeholder="Message"></textarea>
+    </form><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30465.734725272752!2d78.49749147891995!3d17.35329580503269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9954398d192b%3A0xf8b816e26c6731fc!2sPAKO%20Martial%20Arts%20%26%20Self%20Defense%20Academy%20Saroornagar!5e0!3m2!1sen!2sin!4v1702142549704!5m2!1sen!2sin" width="500" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    <div class="van1">
+    <img src="./oxer-html/images/footer-img.jpg" width="800px" height="1000px">
+    </div>
+
+    </div>
+    </div>
+      <div id="classes" class="para">
+        <h1>OUR CLASSES IMAGES</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti cumque adipisci impedit excepturi dolore dicta quo odio dolores minus nobis odit, nostrum nulla recusandae nihil, nam repellendus, voluptatum esse unde non commodi! Pariatur vel a, sequi fugiat repellat quia magnam id. Quidem voluptas ullam obcaecati quibusdam provident dolorum dolore repudiandae ratione esse? Ut possimus explicabo repudiandae quidem, minima reprehenderit et vero? Beatae consectetur, saepe reprehenderit, cumque provident eligendi quis asperiores modi earum non ad voluptatem vero nobis voluptatum minus omnis est? Facilis quos aperiam, incidunt nam porro tenetur.</p>
+        <img src="./oxer-html/images/c1.jpg" width="400px">
+        <img src="./oxer-html/images/c2.jpg" width="400px">
+        <img src="./oxer-html/images/download.jpg" width="400px" height="525px">
+        <img src="./oxer-html/images/1.jpg" width="500px" height="525px">
+        <img src="./oxer-html/images/images.jpg" width="500px" height="525px">
+        <img src="./oxer-html/images/y.webp"  width="500px" height="525px">
+      </div>
+      <div id="blog" class="container-fluid text-center bg-grey">
+        <h1>Latest Blogs</h1><br>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A quam maiores corrupti praesentium assumenda culpa, dignissimos aspernatur quos cum itaque!</h4>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./oxer-html/images/client1.png" width="250" >
+              <p><strong>Boxer Joniya Daro</strong></p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut at distinctio voluptatum, dolor odio repudiandae placeat expedita delectus vel illum voluptatem molestiae mollitia dolore earum sint eligendi? Veniam repudiandae, quo incidunt, maiores odio nostrum rem nisi voluptatem iusto unde amet dignissimos odit veritatis nulla excepturi eaque iste, alias optio? Quibusdam mollitia repellendus consequuntur eaque deserunt veritatis quos nobis consequatur doloremque.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./oxer-html/images/client2.png"  width="250">
+              <p><strong>Boxer Roman</strong></p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque velit iure suscipit facere beatae iste vel quis animi excepturi id, distinctio nostrum delectus nobis eveniet architecto cupiditate maxime sunt dolore rerum a labore, accusamus illum explicabo impedit! Dolorem exercitationem fugit fugiat illum nemo ducimus maiores tempore necessitatibus aliquid blanditiis dignissimos, magnam quam dolorum alias, eligendi quasi sapiente perspiciatis molestias enim.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="./oxer-html/images/final-1.png"  width="250">
+              <p><strong>Boxer Seth</strong></p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, possimus! Soluta, fuga? Totam minus explicabo quaerat possimus id obcaecati fugit voluptas nam, at culpa non vero odit reprehenderit veniam, temporibus ipsa nemo amet, facilis a delectus rerum quam? Deserunt quam non iste veniam quisquam necessitatibus soluta at perferendis impedit asperiores molestiae assumenda inventore eligendi nam minima distinctio, voluptas rerum provident?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="com">
+        <p >Find me on social media</p><br><br><br>
+        <div id="e1">
+        <p class="o1">
+        <i class="fa fa-send" style="font-size:30px"></i>
+        <i class="fa fa-facebook-f" style="font-size:36px"></i>
+        <i class="fa fa-instagram" style="font-size:30px"></i>
+        <i class="fa fa-phone" style="font-size:30px"></i>
+        <i class="fa fa-snapchat" style="font-size:30px"></i>
+        <i class="fa fa-map-marker" style="font-size:30px"></i>
+        </div>
+        </p>
+        <b>Powerd by:</b>
+        <b><a style="color:rgb(11, 238, 76)" href="https://www.cult.fit/lp/cult/center/boxing-classes-in-hyderabad">Boxing Academy</a></b>
+       </div>  
+  </div>
+</body>
+</html>
